@@ -1,0 +1,650 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(image/curve.png);
+    position: relative;
+    background-position: right top;
+    background-size: 410px 380px;
+    background-repeat: no-repeat;
+}
+.landing_page_wrp.container {
+    margin-bottom: 50px;
+}
+.card_img_wrp img {
+    width: 100%;
+}
+figure.card_img_wrp.mt-3 {
+    width: 75%;
+    margin: 0 auto;
+}
+.seamless_spend_right_sec {
+    margin-top: 120px;
+}
+.seamless_spend_right_sec .green_text {
+    color: #1CB562;
+}
+.seamless_spend_right_sec .seamless_head {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 800;
+}
+.seamless_spend_right_sec .seamless_para{
+    font-weight: 400;
+    color: #212121;
+}
+.landing_page_wrp p {
+    color: #707070;
+    font-size: 16px;
+    line-height: 22px;
+}
+button.site_btn {
+    color: #fff;
+    background-color: #1CB562;
+    border: none;
+    padding: 8px 26px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+button.site_btn:hover{
+    background-color: #07a14d;
+}
+.partners_logo_wrp .comm_img_wrp {
+    display: inline-block;
+    vertical-align: middle;   
+}
+.partners_logo_wrp .comm_img_wrp {
+    width: 18%;
+    margin: 20px 0;
+}
+.why_sifi_wrp .comm_green_box {
+    background-color: #D6FFF2;
+    margin: 20px;
+    padding: 150px 20px 10px;
+    border-radius: 10px;
+}
+.comm_headtwo {
+    font-weight: 700;
+    font-size: 30px;
+}
+.comm_box_head {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.comm_green_box:hover{
+    background-color: #1CB562;
+    color: #fff;
+}
+.comm_green_box:hover p, .comm_green_box:hover h6 {
+    color: #fff;
+}
+.comm_green_box:hover .green_img{
+    display: none;
+}
+.comm_green_box:hover .white_img{
+    display: block;
+}
+.comm_green_box .white_img{
+    display: none;
+}
+.comm_green_box  {
+    transition: all .3s ease !important;
+    -webkit-transition: all .3s ease !important;
+    -moz-transition: all .3s ease !important;
+    -ms-transition: all .3s ease !important;
+    -o-transition: all .3s ease !important;
+}
+.why_sifi_wrp {
+    padding: 80px 0;
+}
+.comm_site_head {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.virtual_card_wrp {
+    margin-top: 60px;
+}
+.physical_card_inn {
+    margin-top: 70px;
+}
+.card_empoer_right figure img, .manage_expenses_left figure img {
+    width: 100%;
+    height: 100%    
+}
+.card_empoer_right figure, .manage_expenses_left figure {
+    width: 50%;
+    margin: 0 auto;
+}
+section.card_empower_sec {
+    background-color: #D6FFF22E;
+    padding-top: 80px;
+}
+section.req_card_rec_sect {
+    padding: 70px 0;
+}
+.req_card_rec_sect .req_card_rec_inn{
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15%;
+}
+.req_card_rec_sect .Join_waitlist_btn_wrp {
+    margin-top: 35px;
+}
+.manage_expenses_sect h3.comm_site_head {
+    margin: 10px 0 50px;
+}
+section.manage_expenses_sect {
+    background-color: #D6FFF22E;
+    padding-top: 80px;
+}
+section.transfer_funds_sect {
+    padding: 70px 0 10px;
+}
+.transfer_funds_sect .col-6 img {
+    width: 100%;
+}
+.transf_fund_img {
+    position: relative;
+}
+.transf_fund_img .map_inn_fig img {
+    width: 100%;
+}
+.transf_fund_img .map_shape img {
+    width: 100%;
+}
+section.transfer_funds_sect h3.comm_site_head {
+    margin: 0 0 10px;
+}
+.transf_fund_img .map_shape {
+    position: absolute;
+    right: 0;
+    left: 15px;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 70%;
+    margin: 0 auto;
+}
+.save_transaction_sec{
+    background-color: #D6FFF22E;
+    padding: 80px 0;
+}
+
+.save_transaction_inn{
+    padding-top: 50px;
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15%;
+}
+.save_transaction_sec .Join_waitlist_btn_wrp {
+    margin-top: 60px;
+}
+
+.financial_stack_sec .financial_stack_inn{
+    margin-top: 60px; 
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15%;
+}
+.financial_stack_sec .financial_stack_second {
+    border-bottom: 1px solid #70707036;
+    margin-top: 30px;
+    padding-bottom: 45px;
+}
+section.financial_stack_sec {
+    padding-top: 60px;
+}
+.footer_sect .footer_inn {
+    padding: 40px 0 0px;
+}
+form.lang_form p {
+    padding-left: 7px;
+}
+.footer_inn p {
+    margin-bottom: 0;
+}
+.lang_form label {
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer_sect .lang_form label{
+    font-size: 14px;
+    line-height: 20px;
+    color: #707070;
+    margin-bottom: 5px;
+}
+.footer_sect .lang_form p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin: 0;
+}
+.footer_sect .copyright{
+    font-size: 13px;
+    line-height: 18px;
+}
+.footer_sect .Contact_det {
+    padding-left: 29px;
+}
+/* waiting_list style */
+.waiting_list_sect {
+    background-color: #1CB562;
+    background-image: url(image/form_shape.svg);
+    position: relative;
+    background-position: left 60px top;
+    background-size: 410px 380px;
+    background-repeat: no-repeat;
+}
+.waiting_list_sect .form_wrp {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.waiting_list_inn {
+    padding: 80px 0;
+}
+form.waiting_list_form {
+    padding: 50px 10px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+.waiting_list_form h2 {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.waiting_list_form p {
+    font-size: 17px;
+    color: gray;
+}
+.waiting_list_form .form-control {
+    background-color: #F3F4F5;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border: 1px solid #F3F4F5;
+}
+.form-control:focus {
+    border-color: unset;
+    box-shadow:unset;
+    border: 1px solid #1CB562;
+}
+
+.waiting_list_form label {
+    font-size: 16px;
+    line-height: 20px;
+}
+.waiting_list_form .form-control::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: #A4A4A4;
+}
+.waiting_list_form button.site_btn {
+    padding: 10px 26px;
+    width: 100%;
+}
+.waiting_list_form .submit_btn_wrp{
+    margin-top:50px;
+}
+.waiting_list_form select {
+    padding: 11px;
+    border: none;
+    outline: none;
+    background-color: #F3F4F5;
+}
+.btn-outline-secondary {
+    background-color: #F3F4F5;
+    border: none;
+}
+.btn-outline-secondary:hover {
+    color: #495057;
+    background-color: #F3F4F5;
+    border-right: 1px solid #1CB562;
+}
+.btn-outline-secondary.focus, .btn-outline-secondary:focus {
+    box-shadow: unset;
+}
+
+/* radio button style */
+.radio_btn {
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .radio_btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #D8D8D8;
+  }
+  
+  .radio_btn:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radio_btn input:checked ~ .checkmark {
+    background-color: #fff;
+    border: 1px solid #00AA7D;
+}
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #00AA7D;
+}
+/* arabic_language style */
+.arabic_language .row{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.arabic_language .Site_logo {
+    text-align: right;
+}
+.arabic_language {
+    font-family: 'Lato', sans-serif;
+    background-image: url(image/left_shape.png);
+    position: relative;
+    background-position: left top;
+}
+.arabic_language .comm_green_box{
+    text-align: right
+}
+.arabic_language .footer_inn .comm_headtwo {
+    text-align: left;
+}
+.arabic_language .why_sifi_wrp h2.comm_headtwo {
+    text-align: right;
+}
+.arabic_language .why_sifi_wrp .row {
+    flex-direction: row-reverse;
+}
+.arabic_language .comm_site_head {
+    margin: 0 0 10px;
+    text-align: right;
+}
+.arabic_language .financial_stack_sec p{
+    text-align: right;
+}
+.arabic_language .footer_sect .row {
+    flex-direction: unset;
+    text-align: unset;
+}
+.arabic_language .footer_sect .Contact_det {
+    text-align: right;
+}
+.arabic_language .save_transaction_sec .save_trans_para{
+    text-align: right;
+}
+ .arabic_language .req_card_rec_inn.row {
+    display: flex;
+}
+.arabic_language .save_transaction_inn.row {
+    display: flex;
+}
+.arabic_language .financial_stack_inn.row  {
+    display: flex;
+}
+.arabic_language .comm_green_box:hover .white_img {
+    display: inline-block;
+}
+/* .arabic_language .manage_expenses_left figure {
+    margin: 0;
+    padding-left: 10%;
+} */
+/* .responsive style */
+@media only screen and (max-width: 1199px) {
+    .container {
+        max-width: 96%;
+        margin: 0 auto;
+    }
+    .why_sifi_wrp .comm_green_box {
+        margin: 14px;
+        padding: 100px 14px 5px;
+        border-radius: 10px;
+    }  
+    .landing_page_wrp br{
+        display: none;
+    }
+    .req_card_rec_sect .req_card_rec_inn {
+        grid-column-gap: 0;
+    }
+    .save_transaction_inn {
+        grid-column-gap: 0;
+    }
+    .financial_stack_sec .financial_stack_inn{
+        grid-column-gap: 0;
+    }
+    form.waiting_list_form {
+        max-width: 60%;
+    }
+} /* 1024 */
+
+@media only screen and (max-width: 1023px) {
+    .seamless_spend_right_sec {
+        margin-top: 58px;
+    }
+    section.partners_logo_wrp.text-center {
+        padding-top: 50px;
+    }
+    .partners_logo_wrp .comm_img_wrp {
+        width: 33%;
+    }
+    .why_sifi_wrp {
+        padding: 40px 0;
+    }
+    .why_sifi_wrp .comm_green_box {
+        min-width: 22%;
+        margin: 14px;
+        padding: 100px 15px 10px;
+        border-radius: 10px;
+    } 
+    .card_empoer_right {
+        padding-top: 50px;
+    }
+    .footer_sect .copyright {
+        margin-top: 30px;
+    }
+    .manage_expenses_sect .manage_expenses_right{
+        padding: 60px 15px 25px;
+    }
+    .card_empoer_right figure, .manage_expenses_left figure {
+        width: 30%;
+        margin: 0 auto;
+    }
+} /* 980 */
+@media only screen and (max-width: 979px) {
+    .seamless_spend_right_sec {
+        margin-top: 58px;
+    }   
+    .why_sifi_wrp .comm_green_box {
+        min-width: 45%;
+        padding: 20px 30px 8px;
+    }
+    .transf_fund_img .map_shape {
+        position: absolute;
+        right: 0;
+        left: 12px;
+        top: 34%;
+    }
+    .req_card_rec_sect .req_card_rec_inn {
+        display: unset;
+    } 
+    .req_card_rec_clm {
+        margin-bottom: 40px;
+        padding-left: 0;
+    }  
+    .save_transaction_inn {
+        display: unset;
+    }  
+    .save_transaction_inn .save_trans_comm {
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+    .financial_stack_sec .comm_financial {
+        margin-bottom: 30px;
+        padding-left: 0;
+    } 
+    .financial_stack_sec .financial_stack_inn{
+        display: unset;
+    }
+    section.card_empower_sec {
+        padding-top: 60px;
+    }
+    .save_transaction_sec {
+        background-color: #D6FFF22E;
+        padding: 80px 0 70px;
+    }
+    .physical_card_inn {
+        margin-top: 35px;
+    }
+    .virtual_card_wrp {
+        margin-top: 35px;
+    }
+    .req_card_rec_sect .Join_waitlist_btn_wrp {
+        margin-top: 0;
+    }
+    .save_transaction_sec .Join_waitlist_btn_wrp {
+        margin-top: 0;
+    }
+    form.waiting_list_form {
+        max-width: 90%;
+    }
+    section.req_card_rec_sect {
+        padding: 50px 0;
+    }
+    .save_transaction_sec {
+        padding: 60px 0 60px;
+    }
+    .arabic_language .financial_stack_sec .financial_stack_inn{
+        display: unset;
+    }
+    .arabic_language .req_card_rec_inn.row {
+        display: unset;
+    }
+    .arabic_language .save_transaction_inn.row {
+        display: unset;
+    }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+    .partners_logo_wrp .comm_img_wrp {
+        width: 48%;
+    }
+    section.partners_logo_wrp.text-center {
+        padding-top: 0px;
+    } 
+    .why_sifi_wrp .comm_green_box {
+        margin: 14px;
+        border-radius: 10px;
+    }  
+    .req_card_rec_sect .req_card_rec_inn {
+        grid-column-gap: 0%;
+    } 
+    .manage_expenses_left {
+        padding-bottom: 40px;
+    }
+    .transf_fund_img {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .transf_fund_img .map_shape {
+        left: 15px;
+        top: 50%;
+    }
+    .seamless_spend_left_sec {
+        padding: 50px 0;
+    }
+     
+} /* 650 */
+@media only screen and (max-width: 649px) {
+    body {
+        background-size: 210px 190px;
+    }
+    .why_sifi_wrp .comm_green_box {
+        width: 90%;
+        margin: 10px auto;
+        min-width: unset;
+        flex: unset;
+    }
+    .financial_stack_sec .financial_stack_inn, .req_card_rec_sect .req_card_rec_inn{
+        display: unset;
+        grid-row: unset;
+        grid-template-columns:unset;
+        grid-column-gap: unset;
+    }
+    .footer_sect .Contact_det {
+        padding: 20px 0 20px 15px;
+    }
+    .save_transaction_inn .save_trans_comm {
+        margin-bottom: 30px;
+    }
+    .footer_sect .footer_inn {
+        padding: 20px 0 0px;
+    }
+    section.financial_stack_sec {
+        padding-top: 40px;
+    }
+    .arabic_language .footer_sect .Contact_det {
+        text-align: left;
+    }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+    .partners_logo_wrp .comm_img_wrp {
+        width: 55%;
+        margin: 10px 0;
+    }
+    section.transfer_funds_sect {
+        padding: 50px 0 10px;
+    }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+    .waiting_list_form label {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .waiting_list_form .form-control {
+        padding: 6px 10px;
+    }
+    form.waiting_list_form {
+        max-width: 95%;
+        padding: 30px 10px;
+    }
+    .waiting_list_form h2 {
+        margin-bottom: 20px;
+    }
+    .waiting_list_form p {
+        font-size: 15px;
+    }
+
+} /* 320 */
