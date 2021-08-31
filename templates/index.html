@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
     <title>Home Page</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
@@ -22,6 +22,7 @@
                 </div>
             </div>
         </header>
+        {% load i18n %}
         <div class="landing_page_container">
             <section class="seamless_spend_sec">
                 <div class="container">
@@ -152,7 +153,7 @@
                         </div>  
                     </div>
                     <div class="Join_waitlist_btn_wrp text-center ">
-                        <button type="button" class="site_btn">Join Waitlist</button>
+                        <a href="/waitlist/"><button type="button" class="site_btn">Join Waitlist</button></a>
                     </div>
                 </div>        
             </section>
@@ -222,7 +223,7 @@
                         </div>
                     </div>
                     <div class="Join_waitlist_btn_wrp text-center">
-                        <button type="button" class="site_btn">Join Waitlist</button>
+                        <a href="/waitlist/"><button type="button" class="site_btn">Join Waitlist</button></a>
                     </div>
                 </div>
             </section>
@@ -285,11 +286,11 @@
                         <form class="lang_form">
                             <p>Language</p>
                              <label class="radio_btn">English
-                                <input type="radio" checked="checked" name="radio">
+                                <input id="english-radio" type="radio" checked="checked" name="radio">
                                 <span class="checkmark"></span>
                               </label>
                               <label class="radio_btn">Arabic
-                                <input type="radio" name="radio">
+                                <input id="arabic-radio" type="radio" name="radio">
                                 <span class="checkmark"></span>
                               </label>                      
                         </form>
@@ -300,3 +301,13 @@
         </footer>
     </div><!--landing_page_wrp end-->
 </body>
+
+<script type="text/javascript">
+    $('#arabic-radio').on('click', function() {
+        $(document.body).addClass('arabic_language');
+    });
+    
+    $('#english-radio').on('click', function() {
+        $(document.body).removeClass('arabic_language');
+    })
+</script>

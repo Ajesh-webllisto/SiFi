@@ -364,6 +364,27 @@ form.waiting_list_form {
     border-radius: 50%;
     background: #00AA7D;
 }
+#waittinglistModal .pupup_wrp {
+    padding: 50px 100px;
+}
+.pupup_wrp figure {
+    background-color: #1CB5621A;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+#waittinglistModal .pupup_wrp {
+    padding: 40px 70px;
+}
+.pupup_wrp button.site_btn {
+    padding: 10px 26px;
+    width: 100%;
+}
+.pupup_wrp p {
+    margin-bottom: 50px;
+}
 /* arabic_language style */
 .arabic_language .row{
     flex-direction: row-reverse;
@@ -418,7 +439,12 @@ form.waiting_list_form {
 }
 .arabic_language .comm_green_box:hover .white_img {
     display: inline-block;
+}  
+.arabic_language form.waiting_list_form .form-group, .arabic_language form.waiting_list_form .form-group input  {
+    text-align: right;
 }
+
+
 /* .arabic_language .manage_expenses_left figure {
     margin: 0;
     padding-left: 10%;
@@ -645,6 +671,12 @@ form.waiting_list_form {
     }
     .waiting_list_form p {
         font-size: 15px;
+    }
+    #waittinglistModal .pupup_wrp br{
+       display: none; 
+    }
+    #waittinglistModal .pupup_wrp {
+        padding: 40px 20px;
     }
 
 } /* 320 */

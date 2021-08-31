@@ -14,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </head>
-<body>
+<body class="">
     <section class="waiting_list_sect">
         <div class="container">
             <div class="waiting_list_inn">
@@ -51,10 +51,27 @@
                           <input type="email" class="form-control" placeholder="Enter your address">
                         </div>
                         <div class="submit_btn_wrp">
-                            <button type="submit" class="site_btn">Submit</button>
+                            <button type="button" class="site_btn" data-toggle="modal" data-target="#waittinglistModal" >Submit</button>
                         </div>
                       </form>
                 </div>
+            </div>    
+            <!-- Modal -->
+            <div class="modal fade" id="waittinglistModal" tabindex="-1" role="dialog" aria-labelledby="waittinglistModalTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered " role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="pupup_wrp text-center">
+                          <figure class="mb-5">
+                            <img src="/static/image/right.png" alt="image">
+                          </figure>
+                          <p>Form successfully submitted, our team will<br/>reach-out to you soon as possible. </p>
+                          <div class="submit_btn_wrp">
+                            <button type="button" class="site_btn" data-toggle="modal" data-target="#waittinglistModal" >Back Home</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
             </div>
         </div>
     </section><!--waiting_list_sect end-->
