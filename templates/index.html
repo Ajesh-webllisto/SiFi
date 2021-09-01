@@ -13,8 +13,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </head>
-<body class="">
-    <div class="landing_page_wrp">
+<body class="" >
+    <div id="landing_page_wrp_id" class="landing_page_wrp">
         <header>
             <div class="container">
                 <div class="Site_logo">
@@ -22,12 +22,11 @@
                 </div>
             </div>
         </header>
-        {% load i18n %}
         <div class="landing_page_container">
             <section class="seamless_spend_sec">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 seamless_spend_right_sec">
+                        <div class="col-lg-6 col-md-6 col-sm-6 seamless_spend_right_sec">
                             <h1 class="seamless_head">Seamless spend<br/> management for <span class="green_text">SME’s</span> </h1>
                             <p class=" mt-4 seamless_para">One integrated platform to manage your payment cards and expenses</p>
                             <div class="Join_waitlist_btn_wrp mt-5">
@@ -268,46 +267,340 @@
                 </div>
             </section>
         </div><!--landing_page_container endivd-->
-        <footer class="footer_sect">
-            <div class="container">
-                <div class="row  footer_inn">
-                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                        <h2 class="comm_headtwo">SiFi</h2>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 Contact_det">
-                        <h6 class="comm_box_head mb-3">Contact</h6>
-                        <p>SiFi Ltd <p>
-                        <p>+966 00 00 00<p> 
-                        <p>sales@sifi.sa</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <form class="lang_form">
-                            <p>Language</p>
-                             <label class="radio_btn">English
-                                <input id="english-radio" type="radio" checked="checked" name="radio">
-                                <span class="checkmark"></span>
-                              </label>
-                              <label class="radio_btn">Arabic
-                                <input id="arabic-radio" type="radio" name="radio">
-                                <span class="checkmark"></span>
-                              </label>                      
-                        </form>
-                    </div>
-                </div>
-                <p class="text-center copyright">Copyright reserved SiFi 2021</p>
-            </div>
-        </footer>
     </div><!--landing_page_wrp end-->
+    <div id="arabic_landing_page_id" class="arabic_landing_page" style="display: none;">
+        <div class="landing_page_wrp">
+            <header>
+                <div class="container">
+                    <div class="Site_logo">
+                        <img src="/static/image/Logo.png" alt="logo">
+                    </div>
+                </div>
+            </header>
+            <div class="landing_page_container">
+                <section class="seamless_spend_sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 seamless_spend_right_sec">
+                                <h1 class="seamless_head">تﺎﻛﺮﺸﻟا تﺎﻓوﺮﺼﻣ ةرادإ
+                                    ﺔﻄﺳﻮﺘﻤﻟاو ةﺮﻴﻐﺼﻟا</h1>
+                                <p class=" mt-4 seamless_para">تافورصملا و تاعوفدملا تاقاطب ةرادإل ةدحاو ةصنم</p>
+                                <div class="Join_waitlist_btn_wrp mt-5">
+                                    <a href="/waitlist/"><button type="button" class="site_btn">راظتنالا ةمئاق ىلإ مضنا</button></a>
+                                </div>
+                            </div>           
+                            <div class="col-lg-6 col-md-6 col-sm-12  seamless_spend_left_sec text-right">
+                                <figure class="card_img_wrp mt-3">
+                                    <img src="/static/image/card_img.png" alt="card-image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="partners_logo_wrp text-center">
+                    <div class="container">
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/google.png" alt="image">
+                        </div>
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/microsoft.png" alt="image">
+                        </div>
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/saudia.png" alt="image">
+                        </div>
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/amazon.png" alt="image">
+                        </div>
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/atlassian.png" alt="image">
+                        </div>                                   
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/Booking_logo.svg" alt="image">
+                        </div>                                   
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/Bookstork_logo.svg" alt="image">
+                        </div>                                   
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/Extra_logo.svg" alt="image">
+                        </div>                                   
+                        <div class="comm_img_wrp">
+                            <img src="/static/image/Amolsafar.svg" alt="image">
+                        </div>    
+                    </div>                               
+                </section>
+                <section class="why_sifi_wrp">
+                    <div class="container">
+                        <h2 class="comm_headtwo">؟  SIFI  اذﺎﻤﻟ</h2>
+                        <div class="row mt-5">
+                            <div class="comm_green_box col">
+                                <img src="/static/image/Single_platform.svg" class="mb-3 green_img" alt="image">
+                                <img src="/static/image/Single_platform_white.svg" class="mb-3 white_img" alt="image">
+                                <h6 class="comm_box_head mb-3">ةﺪﺣاو ﺔﺼﻨﻣ</h6>
+                                <p>تﺎﻋﻮﻓﺪﻤﻟا ةرادﺈﻟ ﻞﻣﺎﻜﺘﻣ ﻞﺣ</p>
+                            </div>
+                            <div class="comm_green_box col">
+                                <img src="/static/image/Cantrol.svg" class="mb-3 green_img" alt="image">
+                                <img src="/static/image/Cantrol_white.svg" class="mb-3 white_img" alt="image">
+                                <h6 class="comm_box_head mb-3">مكحتلا</h6>
+                                <p>تﺎﻓوﺮﺼﻣ ﻰﻠﻋ تﺎﻘﻓاﻮﻤﻟا ﻲﻓ ﻢﻜﺤﺗ</p>
+                            </div>
+                            <div class="comm_green_box col">
+                                <img src="/static/image/Integration.svg" class="mb-3 green_img" alt="image">
+                                <img src="/static/image/Integrations_white.svg" class="mb-3 white_img" alt="image">
+                                <h6 class="comm_box_head mb-3">طبرلا</h6>
+                                <p>ERP ﺔﻤﻈﻧأ ﻊﻣ ﻞﻣﺎﻜﺗ </p>
+                            </div>
+                            <div class="comm_green_box col">
+                                <img src="/static/image/Financing.svg" class="mb-3 green_img" alt="image">
+                                <img src="/static/image/Financing_white.svg" class="mb-3 white_img" alt="image">
+                                <h6 class="comm_box_head mb-3">ليومتلا</h6>
+                                <p>ةرﻮﺗﺎﻔﻟا ﻢﺼﺧو يرﻮﻓ ﻞﻳﻮﻤﺗ</p>
+                            </div>
+                        </div>    
+                    </div>  
+                </section>
+                <section class="card_empower_sec ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card_empower_left col-lg-6 col-md-12 col-sm-12">
+                                <div class="physical_card_wrp">
+                                    <h3 class="comm_site_head">لامعألا نيكمتل تاقاطب</h3>
+                                    <div class="physical_card_inn">
+                                        <img src="/static/image/Physical_card.svg" alt="image">
+                                        <h6 class="comm_box_head mt-3 mb-3">ﺔﻴﻜﻴﺘﺳﺎﻠﺑ تﺎﻗﺎﻄﺑ</h6>
+                                        <p >تايرتشمل ةيدرف ةيدام ةقاطب نييعتب مق
+                                            <br/>تاكرشلا رفسو ةكرشلا</p>
+                                    </div>
+                                </div>
+                                <div class="virtual_card_wrp">
+                                    <div class="virtual_card_inn">
+                                        <img src="/static/image/Virtual_card.svg" alt="image">
+                                        <h6 class="comm_box_head mt-3 mb-3">Virtual cards</h6>
+                                        <p>ةدواعمو ةدحاو ةرم ةديقم ريغ ةيضارتفا تاقاطب ءاشنإب مق
+                                            <br/>تنرتنإلا ربع تاكارتشالاو تايرتشملل</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_empoer_right col-lg-6 col-md-12 col-sm-12 text-right">
+                                <figure>
+                                    <img src="/static/image/Mask_Group.png" alt="mobile-image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="req_card_rec_sect">
+                    <div class="container">
+                        <div class="row req_card_rec_inn">
+                            <div class="col req_card_rec_clm">
+                                <img src="/static/image/Request_card.svg" alt="image">
+                                <h6 class="comm_box_head mt-3 mb-3">تاقاطب بلط</h6>
+                                <p>ةيضارتفا تاقاطب بلطا
+                                    <br/> تنرتنإلا ربع كتايرتشمل</p>
+                            </div>  
+                            <div class="col req_card_rec_clm">
+                                <img src="/static/image/Card_limit.svg" alt="image">
+                                <h6 class="comm_box_head mt-3 mb-3">ةقاطبلا دح</h6>
+                                <p>دحلا قيرط نع يدرفلا قافنإلا دح نييعت
+                                   <br/> يرهشلا ىصقألادحلاو يمويلا
+                                </p>
+                            </div>  
+                            <div class="col req_card_rec_clm">
+                                <img src="/static/image/Reccuring_cards.svg" alt="image">
+                                <h6 class="comm_box_head mt-3 mb-3">ةرركتملا تاقاطبلا</h6>
+                                <p>ةرركتم كارتشا ةقاطب ءاشنإ
+                                    <br/>رهش لك ليومتلا ةقبسمو</p>
+                            </div>  
+                        </div>
+                        <div class="Join_waitlist_btn_wrp text-center ">
+                            <a href="/waitlist/"><button type="button" class="site_btn">راظتنالا ةمئاق ىلإ مضنا</button></a>
+                        </div>
+                    </div>        
+                </section>
+                <section class="manage_expenses_sect">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 manage_expenses_left">
+                                <figure>
+                                    <img src="/static/image/mobile_manage.png" alt="mobile-image">
+                                </figure>                        
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 manage_expenses_right">
+                                <h3 class="comm_site_head">كب ةصاخلا تاقفنلا ةرادإ</h3>
+                                <div class="approval_flow mt-5">
+                                    <h6 class="comm_box_head mt-3 mb-3">ةقفاوملا قفدت</h6>
+                                    <p>ةقفاوملا قفدت لالخ نم فيراصم لك رمت
+                                       <br/> ةكرشلا ةسايس عم قفاوتتو</p>
+                                </div>
+                                <div class="reimbursements mt-5">
+                                    <h6 class="comm_box_head mt-3 mb-3">دادسلا</h6>
+                                    <p>ةرشابم لايمألا تابلاطمو بيجلا فيراصم بلطا
+                                       <br/> كب صاخلا لومحملا فتاهلا قيبطت نم</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="transfer_funds_sect">
+                    <div class="container">
+                        <h3 class="comm_site_head">ملاعلا لوح لاومألا ليوحت</h3>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-xl-5 transf_fund_cnt">
+                                <div class="approval_flow mt-5">
+                                    <h6 class="comm_box_head mt-3 mb-3">عفدلا ةداعإ</h6>
+                                    <p>ةصصخم ةلودجم ةرركتم تاعوفدم نييعتب مق
+                                        <br/>رهش وأ عوبسأ لك كيدل نيعئابلل</p>
+                                </div>
+                                <div class="reimbursements mt-5">
+                                    <h6 class="comm_box_head mt-3 mb-3">ةلود 130 نم رثكأ ىلإ لسرأ</h6>
+                                    <p>ملاعلا ءاحنأ عيمج يف نيعئابلل عفدا
+                                        <br/>ةيبنجألا تالمعلا فرص راعسأو موسر لضفأب</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-xl-7 transf_fund_img">
+                                <figure class="map_inn_fig">
+                                    <img src="/static/image/map_Image.png" alt="map_image">
+                                </figure>
+                                <figure class="map_shape">
+                                    <img src="/static/image/map_outer.png" alt="map_image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="save_transaction_sec ">
+                    <div class="container">
+                        <h3 class="comm_site_head mb-3">.ةلماعم لك يف رفو</h3>
+                        <p class="save_trans_para">لماكتم دحاو لح يف تاعوفدملاو تافورصملاو ةكرشلا ةقاطبو ةيضارتفالا تاقاطبلا نيب SIFi عمجي</p>
+                        <div class="row save_transaction_inn">
+                            <div class="col save_trans_comm">
+                                <h6 class="comm_box_head mb-3">دوقنلا دادرتسا</h6>
+                                <p>يدقن عاجرتسا ىلع لصحا
+                                    كتايرتشم لك 1% ىلإ لصي
+                                    ةظفحملا ربع</p>
+                            </div>
+                            <div class="col save_trans_comm">
+                                <h6 class="comm_box_head mb-3">SiFi ءﺎﻛﺮﺷ ﻦﻣ ضوﺮﻋ</h6>
+                                <p>SiFI ﻦﻣ يﺮﺼﺣ ضﺮﻋ 300 ﻦﻣ ﺮﺜﻛأ
+                                    ءاﺮﺷ ﺔﻴﻠﻤﻋ ﻞﻛ ﺮﻴﻓﻮﺘﻟ اًيﺮﻬﺷ</p>
+                            </div>
+                            <div class="col save_trans_comm">
+                                <h6 class="comm_box_head mb-3">فرصلا راعسأ</h6>
+                                <p>ةعفترملا فرصلا راعسأ موسر رفو
+                                    <br/>ةيديلقتلا ةفارصلا يدوزم لبق نم</p>
+                            </div>
+                        </div>
+                        <div class="Join_waitlist_btn_wrp text-center">
+                            <a href="/waitlist/"><button type="button" class="site_btn">راظتنالا ةمئاق ىلإ مضنا</button></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="financial_stack_sec ">
+                    <div class="container">
+                        <h3 class="comm_site_head mb-3">ﺔﻠﻣﺎﻜﺘﻣ ﺔﻴﻟﺎﻣ تﺎﻣﺪﺧ</h3>
+                        <p>لماكتم دحاو لح يف تاعوفدملاو تافورصملاو ةكرشلا ةقاطبو ةيضارتفالا تاقاطبلا نيب SIFi عمجي</p>
+                        <div class="row financial_stack_inn">
+                            <div class="col comm_financial">
+                                <img src="/static/image/Invoicing_management.svg" class="mb-3 green_img" alt="image">
+                                <h6 class="comm_box_head mb-3">ريتاوفلا ةرادإ</h6>
+                                <p>ةجلاعم ةتمتأ و تافورصملا ةرادإ
+                                    ريتاوفلا
+                                    </p>
+                            </div>
+                            <div class="col comm_financial">
+                                <img src="/static/image/Subscription_management.svg" class="mb-3 green_img" alt="image">
+                                <h6 class="comm_box_head mb-3">كارتشالا ةرادإ</h6>
+                                <p>ةرركتملا تاكارتشالا ةرادإ
+                                    <br/>.ةيضارتفالا تاقاطبلا مادختساب</p>
+                            </div>
+                            <div class="col comm_financial">
+                                <img src="/static/image/Expense_management.svg" class="mb-3 green_img" alt="image">
+                                <h6 class="comm_box_head mb-3">باسح ةرادإ</h6>
+                                <p>نع ضيوعتلا ةيلمع ةرادإ
+                                    يف تاقفاوملا و تافورصملا
+                                    ةدحاو ةصنم</p>
+                            </div>
+                        </div>
+                        <div class="financial_stack_inn financial_stack_second row">
+                             <div class="col comm_financial">
+                                <img src="/static/image/Business_payments.svg" class="mb-3 green_img" alt="image">
+                                <h6 class="comm_box_head mb-3">لامعألا تاعوفدم</h6>
+                                <p>ليوحتلل SiFi ةظحم مدختسا
+                                    كئالمعل و كيدرومل</p>
+                            </div>
+                            <div class="col comm_financial">
+                                <img src="/static/image/Analytics.svg" class="mb-3 green_img" alt="image">
+                                <h6 class="comm_box_head mb-3">تاليلحت</h6>
+                                <p>تاليلحتلاو لامعألا قافنإ ريراقت
+                                    كدي لوانتم يف يلعفلا تقولا يف</p>
+                            </div>
+                            <div class="col comm_financial">
+                                <img src="/static/image/Integration.svg" class="mb-3 green_img" alt="image">
+                                <h6 class="comm_box_head mb-3">جامدنا</h6>
+                                <p>عم تانايبلا هذه عيمج قيفوتب مق
+                                    تاسسؤملا دراوم طيطخت ماظن
+                                    كب صاخلا ةبساحملا جمانرب وأ</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div><!--landing_page_container endivd-->
+            
+        </div>
+    </div><!--arabic_landing_-->
+    <footer class="footer_sect">
+        <div class="container">
+            <div class="row  footer_inn">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                    <h2 class="comm_headtwo">SiFi</h2>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 Contact_det">
+                    <h6 id="heading_contact_arabic" style="display: none;" class="comm_box_head mb-3">لاصتا</h6>
+                    <h6 id="heading_contact_english" class="comm_box_head mb-3">Contact</h6>
+                    <p>SiFi Ltd <p>
+                    <p>+966 00 00 00<p> 
+                    <p>sales@sifi.sa</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form class="lang_form">
+                        <p>Language</p>
+                         <label class="radio_btn">English
+                            <input id="english-radio" checked="checked" type="radio" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="radio_btn">يبرع
+                            <input id="arabic-radio" type="radio" name="radio">
+                            <span class="checkmark"></span>
+                          </label>                      
+                    </form>
+                </div>
+            </div>
+            <p id="copyright_text_english" class="text-center copyright">Copyright reserved SiFi 2021</p>
+            <p id="copyright_text_arabic" style="display: none;" class="text-center copyright">2021    ةظوفحم رشنلاو عبطلا قوقح</p>
+        </div>
+    </footer>
 </body>
 
 <script type="text/javascript">
     $('#arabic-radio').on('click', function() {
         $(document.body).addClass('arabic_language');
+        $("#landing_page_wrp_id").css("display", "none");
+        $("#arabic_landing_page_id").css("display", "block");
+        $("#copyright_text_english").css("display", "none");
+        $("#copyright_text_arabic").css("display", "block");
+        $("#heading_contact_english").css("display", "none");
+        $("#heading_contact_arabic").css("display", "block");
     });
     
     $('#english-radio').on('click', function() {
         $(document.body).removeClass('arabic_language');
+        $("#landing_page_wrp_id").css("display", "block");
+        $("#arabic_landing_page_id").css("display", "none");
+        $("#copyright_text_english").css("display", "block");
+        $("#copyright_text_arabic").css("display", "none");
+        $("#heading_contact_english").css("display", "block");
+        $("#heading_contact_arabic").css("display", "none");
     })
 </script>
